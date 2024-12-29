@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta name='robots' content='noindex' />
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="./logo.svg">
+    <title>☆げんちゃんクイズ☆</title>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://genchan.tellpro.net" />
+    <meta property="og:site_name" content="げんちゃんクイズ｜TellPro" />
+    <meta property="og:image" content="https://www.tellpro.net/svg/logo.svg" />
+    <meta property="og:title" content="☆げんちゃんクイズ☆" />
+    <meta property="og:description" content="げんちゃんクイズで遊んでみよう！" />
+    <meta name="twitter:card" content="summary" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <main class="quiz">
+            <h1 style="text-align: center;">げんちゃんクイズ</h1>
+            <div class="inner-block">
+                <div class="quiz-content">
+                    <div class="finish">
+                        <div class="score-wrap">
+                            <span class="score">0</span>
+                            <span class="ja">点</span>
+                            <span class="full">／10点</span>
+                        </div>
+                        <a href="./" class="goback-button">最初からやり直す</a>
+                        <a href="https://twitter.com/intent/tweet?text=げんちゃんクイズで0点取ったよ!&url=https://genchan.tellpro.net"
+                            class="twitter-share-button" target="_blank">𝕏にポスト</a>
+                    </div>
+                    <div class="quiz-question-number"></div>
+                    <h2 class="quiz-question"></h2>
+
+                    <ul class="quiz-answer">
+                        <li>
+                            <label class="quiz-button button01">
+                                <input name="radio" type="radio" value="">
+                                <span class="quiz-text01"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="quiz-button button02">
+                                <input name="radio" type="radio" value="">
+                                <span class="quiz-text02"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="quiz-button button03">
+                                <input name="radio" type="radio" value="">
+                                <span class="quiz-text03"></span>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="quiz-button button04">
+                                <input name="radio" type="radio" value="">
+                                <span class="quiz-text04"></span>
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="./jquery.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
