@@ -270,9 +270,6 @@ dd {
   border: 1px solid #000;
   white-space: pre-wrap;
 }
-.quiz-answer li label:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-}
 .quiz-answer li label.is-checked {
   pointer-events: none;
 }
@@ -482,5 +479,11 @@ dd {
   }
   .quiz-answer {
     padding: 0 200px 100px;
+  }
+}
+
+@media (any-hover: hover) {
+  .quiz-answer li label:hover {
+    background-color: rgba(0, 0, 0, 0.1);
   }
 }
